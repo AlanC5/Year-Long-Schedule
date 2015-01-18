@@ -1,7 +1,7 @@
 # Year-Long-Schedule
 Creates a year long schedule of activites, writes to a file, reads from a file, and sorts the schedule.
 
-Randomly generates 20 dates and corresponding activities categorized as EVENT (PARTY, ANNIV) or DUTY (FAMILY, SCHOOL). The list is then written to a file, sorted, and read from the file.  
+Randomly generates 20 dates and corresponding activities categorized as EVENT (PARTY, ANNIV) or DUTY (FAMILY, SCHOOL). The list is then written to a file, sorted by date, and read from the file.  
 
 
 # Example
