@@ -1,2 +1,80 @@
 # Year-Long-Schedule
-Creates a year long schedule of activites, reads to a file, writes from a file, and sorts the schedule.
+Creates a year long schedule of activites, writes to a file, reads from a file, and sorts the schedule.
+
+Randomly generates 20 dates and corresponding activities categorized as EVENT (PARTY, ANNIV) or DUTY (FAMILY, SCHOOL). The list is then written to a file, sorted, and read from the file.  
+
+
+# Example
+
+Please refer to "scheduler.data" file for better understanding of the example.
+
+```
+EVENT: PARTY Thu Sep 28 12:15:0 2014
+EVENT: PARTY Tue Jun 22 13:15:0 2014
+EVENT: PARTY Thu Jul 8 15:0:0 2014
+DUTY: FAMILY Fri Jan 5 11:0:0 2014
+EVENT: ANNIV Sun Mar 2 14:15:0 2014
+DUTY: FAMILY Tue Feb 14 9:30:0 2014
+EVENT: PARTY Sun Feb 26 10:0:0 2014
+EVENT: ANNIV Thu Sep 9 12:0:0 2014
+DUTY: FAMILY Wed Mar 21 11:0:0 2014
+DUTY: SCHOOL Tue Apr 22 7:30:0 2014
+DUTY: SCHOOL Mon Jun 7 11:0:0 2014
+DUTY: SCHOOL Fri Jul 16 9:30:0 2014
+DUTY: FAMILY Thu Dec 9 10:30:0 2014
+DUTY: SCHOOL Fri Dec 8 12:15:0 2014
+EVENT: PARTY Tue Aug 6 12:30:0 2014
+EVENT: PARTY Tue Jul 23 12:30:0 2014
+EVENT: ANNIV Sat Oct 7 7:0:0 2014
+EVENT: PARTY Tue Jan 9 8:15:0 2014
+EVENT: PARTY Mon Jun 22 10:30:0 2014
+EVENT: ANNIV Tue Mar 14 10:0:0 2014
+Writing to 'scheduler.data' completed!
+
+AFTER SORTING...
+
+DUTY: FAMILY Fri Jan 5 11:0:0 2014
+EVENT: PARTY Tue Jan 9 8:15:0 2014
+DUTY: FAMILY Tue Feb 14 9:30:0 2014
+EVENT: PARTY Sun Feb 26 10:0:0 2014
+EVENT: ANNIV Sun Mar 2 14:15:0 2014
+EVENT: ANNIV Tue Mar 14 10:0:0 2014
+DUTY: FAMILY Wed Mar 21 11:0:0 2014
+DUTY: SCHOOL Tue Apr 22 7:30:0 2014
+DUTY: SCHOOL Mon Jun 7 11:0:0 2014
+EVENT: PARTY Mon Jun 22 10:30:0 2014
+EVENT: PARTY Tue Jun 22 13:15:0 2014
+EVENT: PARTY Thu Jul 8 15:0:0 2014
+DUTY: SCHOOL Fri Jul 16 9:30:0 2014
+EVENT: PARTY Tue Jul 23 12:30:0 2014
+EVENT: PARTY Tue Aug 6 12:30:0 2014
+EVENT: ANNIV Thu Sep 9 12:0:0 2014
+EVENT: PARTY Thu Sep 28 12:15:0 2014
+EVENT: ANNIV Sat Oct 7 7:0:0 2014
+DUTY: SCHOOL Fri Dec 8 12:15:0 2014
+DUTY: FAMILY Thu Dec 9 10:30:0 2014
+Reading from 'scheduler.data' completed!
+
+Current contents of scheduler.data:
+EVENT: PARTY Thu Sep 28 12:15:0 2014
+EVENT: PARTY Tue Jun 22 13:15:0 2014
+EVENT: PARTY Thu Jul 8 15:0:0 2014
+DUTY: FAMILY Fri Jan 5 11:0:0 2014
+EVENT: ANNIV Sun Mar 2 14:15:0 2014
+DUTY: FAMILY Tue Feb 14 9:30:0 2014
+EVENT: PARTY Sun Feb 26 10:0:0 2014
+EVENT: ANNIV Thu Sep 9 12:0:0 2014
+DUTY: FAMILY Wed Mar 21 11:0:0 2014
+DUTY: SCHOOL Tue Apr 22 7:30:0 2014
+DUTY: SCHOOL Mon Jun 7 11:0:0 2014
+DUTY: SCHOOL Fri Jul 16 9:30:0 2014
+DUTY: FAMILY Thu Dec 9 10:30:0 2014
+DUTY: SCHOOL Fri Dec 8 12:15:0 2014
+EVENT: PARTY Tue Aug 6 12:30:0 2014
+EVENT: PARTY Tue Jul 23 12:30:0 2014
+EVENT: ANNIV Sat Oct 7 7:0:0 2014
+EVENT: PARTY Tue Jan 9 8:15:0 2014
+EVENT: PARTY Mon Jun 22 10:30:0 2014
+EVENT: ANNIV Tue Mar 14 10:0:0 2014
+EVENT: ANNIV Tue Mar 14 10:0:0 2014
+```
